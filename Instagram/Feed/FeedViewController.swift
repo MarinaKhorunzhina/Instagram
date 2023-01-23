@@ -1,19 +1,17 @@
 //
-//  ViewController.swift
+//  FeedViewController.swift
 //  Instagram
 //
 //  Created by Marina on 23.01.23.
 //
 
 import UIKit
+import SnapKit
 
-class ViewController: UIViewController {
-
+class FeedViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .blue
     }
-
-
 }
-
