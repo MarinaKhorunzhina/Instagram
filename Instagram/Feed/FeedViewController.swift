@@ -22,8 +22,9 @@ private extension FeedViewController {
     }
     
     func makeLeftBarButtonItem() -> [UIBarButtonItem] {
+        let logoBarButtonItem = UIBarButtonItem(customView: LogoView())
         let dropDownButtonItem = UIBarButtonItem (title: nil, image: UIImage(systemName: "chevron.down"), primaryAction: nil, menu: makeDropDownMenu())
-       return [dropDownButtonItem]
+       return [logoBarButtonItem, dropDownButtonItem]
     }
     func makeDropDownMenu() -> UIMenu {
         let subsItem = UIAction(title: "Подписки", image: UIImage(systemName: "person.2")) {_ in

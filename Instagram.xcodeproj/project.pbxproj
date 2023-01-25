@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C11BC812981941A00721D0F /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11BC802981941A00721D0F /* LogoView.swift */; };
 		9CC0C056297EEB8500F8602F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0C055297EEB8500F8602F /* AppDelegate.swift */; };
 		9CC0C058297EEB8500F8602F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC0C057297EEB8500F8602F /* SceneDelegate.swift */; };
 		9CC0C05F297EEB8500F8602F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC0C05E297EEB8500F8602F /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C11BC802981941A00721D0F /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		9CC0C052297EEB8500F8602F /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC0C055297EEB8500F8602F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CC0C057297EEB8500F8602F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C11BC822981942200721D0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C11BC802981941A00721D0F /* LogoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9CC0C049297EEB8400F8602F = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 			children = (
 				9CC0C069297EEC0100F8602F /* Application */,
 				9CC0C06C297EED7F00F8602F /* Feed */,
+				9C11BC822981942200721D0F /* Views */,
 				9CC0C06B297EEC4C00F8602F /* Resources */,
 			);
 			path = Instagram;
@@ -167,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC0C056297EEB8500F8602F /* AppDelegate.swift in Sources */,
+				9C11BC812981941A00721D0F /* LogoView.swift in Sources */,
 				9CC0C06E297EED9C00F8602F /* FeedViewController.swift in Sources */,
 				9CC0C058297EEB8500F8602F /* SceneDelegate.swift in Sources */,
 			);
